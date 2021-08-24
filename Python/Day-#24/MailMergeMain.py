@@ -25,11 +25,12 @@ import re
 letter = ""
 senders_names_list = []
 with open("./Input/Names/Invited_names.txt") as invited_file:
+    # senders_names_list = invited_file.readlines()
     senders_names_list = invited_file.read().split("\n")
 
 for sender in senders_names_list:
     if sender:
         with open("./Input/Letters/starting_letter.txt") as start_letter_file:
-            mail_contents = start_letter_file.read().replace("[name]", sender)
-            with open(f"./Output/ReadyToSend/letter_for_{sender.capitalize()}.txt", "w") as output:
+            mail_contents = start_letter_file.read().replace("[name]", sender.strip()) # strip is not required while using split
+            with open(f"./Output/ReadyToSend/letter_for_{sender.strip().capitalize()}.txt", "w") as output:
                 output.write(mail_contents)
