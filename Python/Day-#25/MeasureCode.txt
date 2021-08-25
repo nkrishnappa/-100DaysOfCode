@@ -1,0 +1,8 @@
+How to measure the code?
+    - Expressive 
+    - Readable by many
+
+It's NOT about 
+    - pre-mature optimization 
+    - achieving the solution in less code 
+
