@@ -1,0 +1,13 @@
+Setting Options
+Options control things like the color and border width of a widget. 
+
+Options can be set in three ways:
+    At object creation time, using keyword arguments
+        fred = Button(self, fg="red", bg="blue")
+        
+    After object creation, treating the option name like a dictionary index
+        fred["fg"] = "red"
+        fred["bg"] = "blue"
+
+    Use the config() method to update multiple attrs subsequent to object creation
+        fred.config(fg="red", bg="blue")
