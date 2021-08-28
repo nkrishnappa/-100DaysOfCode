@@ -1,0 +1,5 @@
+python strictly typed
+    - "string" + 1
+python dynamic typed
+    - a = 4
+    - a = "string"
