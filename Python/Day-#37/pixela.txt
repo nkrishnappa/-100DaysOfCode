@@ -1,0 +1,40 @@
+https://pixe.la/ - 
+
+How do I use Pixela?
+Pixela's service interface provides only the RESTish API.
+Dive into the world of Pixela from the console on your machine!
+
+1
+Create your user account
+Call /v1/users API by HTTP POST.
+
+$ curl -X POST https://pixe.la/v1/users -d '{"token":"thisissecret", "username":"a-know", "agreeTermsOfService":"yes", "notMinor":"yes"}'
+{"message":"Success.","isSuccess":true}
+2
+Create a graph definition
+Call /v1/users/<username>/graphs by HTTP POST.
+
+$ curl -X POST https://pixe.la/v1/users/a-know/graphs -H 'X-USER-TOKEN:thisissecret' -d '{"id":"test-graph","name":"graph-name","unit":"commit","type":"int","color":"shibafu"}'
+{"message":"Success.","isSuccess":true}
+3
+Get the graph!
+Browse https://pixe.la/v1/users/a-know/graphs/test-graph ! This is also /v1/users/<username>/graphs/<graphID> API.
+
+
+4
+Post value to the graph
+Call /v1/users/<username>/graphs/<graphID> by HTTP POST.
+
+$ curl -X POST https://pixe.la/v1/users/a-know/graphs/test-graph -H 'X-USER-TOKEN:thisissecret' -d '{"date":"20180915","quantity":"5"}'
+{"message":"Success.","isSuccess":true}
+5
+Browse again!
+Browse https://pixe.la/v1/users/a-know/graphs/test-graph, again!
+
+
+6
+You can also find out more about.
+You can get more information by adding .html to the end of the URL on Step.6 at it in your browser! (https://pixe.la/v1/users/a-know/graphs/test-graph.html)
+
+
+The API used here is only a small part. Use Pixela efficiently with a simple and easy API!
