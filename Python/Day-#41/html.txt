@@ -1,0 +1,16 @@
+Client Server Archeitecure
+Internet service provider
+HTML - Structure of the website, Hyper text markup language 
+CSS - Stying of the website
+JS - Java Script - Functional/Behaviour - Do things
+
+---
+HTML - HyperText Markup language - Intrepret the files into website 
+XML - Extensible Markup language
+
+codepen.io
+
+--
+<h1>
+<br> - self closing element
+<hr>
