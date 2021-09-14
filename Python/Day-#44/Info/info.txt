@@ -1,0 +1,71 @@
+Favicon - Favrite icon 
+The Box Model - 
+    {
+        width : 100% or width: 200px
+        hight : ----
+        border: solid;
+        border-width : 0px
+        border-top/right/left/bottom : 0px
+        border-width: 0px 10px 20px 3-px
+        padding: 20px
+        margin: 10px
+    }
+    element.style {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border: solid 10px;
+    border-width: thick;
+    border-color: black;
+    }
+
+
+Display 
+    Block - Take up entire element, new blocks created for each element.
+    - can change the width - if prevent then use - change display property inline - display : inline)
+        paragraphs<p>
+            Example :
+            <p1>hello</p1>
+            <p2>hello</p2>
+            
+
+        Headers <h1> - <h6>
+        Divisions <div>
+        Lists and list items <ol>, <ul> , <li>
+        Forms <form>
+
+    Inline - width can't be changed - cons - (change display property block)
+    - contains width as much as element - if the image is 200px * 200px then it will only takes 200* 200
+        Spans<span>
+        Images<img>
+        Anchors<a>
+
+        display : inline
+        display : block
+
+    Inline-Block
+                display: inline-block
+
+    None
+        /* display: none; */
+        /* visibility: hidden; */
+
+
+CSS positioning:
+    1. Content is everything
+    2. Order of the elements comes from code - Default layout
+    3. Children sit on parents
+        Eg:
+         <div> <h1> </div> - h1 sits on div, 
+         <div> <h1> <span> </h1> </div> - span sits on the h1
+    4. Position 
+        position : relative/absolute/relative/staic
+        Static
+        Relative
+        Absolute 
+        Fixed
+        
+
+
+    

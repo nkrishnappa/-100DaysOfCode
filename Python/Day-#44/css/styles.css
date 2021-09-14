@@ -1,0 +1,179 @@
+body {
+    /* background-color: blue; */
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #0a0a0a;
+    /* font-size: 200%;  */
+    /* font-family: sans-serif; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  */
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    margin:0px;
+    padding-top: 100px;
+    /* margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px; */
+}
+
+h1 {
+    /* width: 5%; */
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    /* font-size: 562.5em; 16px 90px/16 = 90px em- */
+    /* margin:0px;
+    margin-top: 0; */
+    /* top, right, bottom, left */
+    /* margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px; */
+}
+
+.middle-container {
+    margin: 30px auto auto auto;
+    /* background-color: red;
+    width: 200px;
+    height: 200px; */
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    /* background-color: #E4F9F5; */
+    /* background-color: blue; */
+    margin: 20px auto auto auto;
+    padding: 20px;
+}
+
+.pro {
+    text-decoration: underline;
+    /* font-weight: normal; */
+    /* display: none; */
+    /* visibility: hidden; */
+
+}
+.programmer {
+    font-weight: normal;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Fira Code', monospace;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h3 {
+    font-family: 'Fira Code', monospace;
+    font-size: 1rem;
+    color: #11999E;
+}
+
+.top-cloud {
+    /* position: relative;
+    padding-top: 100px;
+    left: 250px; */
+    position: absolute;
+    right: 30%;
+    top:50px;
+}
+
+.bottom-cloud {
+    position:absolute;
+    left: 30%;
+    bottom:40%;
+}
+
+.circular {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 70%;
+    background-color: antiquewhite;
+    width:100px;
+    height:100px;
+}
+
+.skills {
+    /* width: 50%;
+    margin : 100px auto 100px auto; 
+    text-align: left;
+    line-height: 2;
+    */
+}
+
+a {
+    color: #11999E;
+    margin : 10px 20px;
+    font-family: 'Fira Code', monospace;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+.copyright {
+    color: #EAF6F6;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width:10px;
+    width:5%;
+}
+
+p {
+    line-height: 2;
+}
+
+div {
+    margin : auto auto auto auto;
+    padding-bottom: 20px;
+}
+
+/* .btn {
+    width: 40%;
+    margin: 40px auto 60px auto;
+} */
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #119998);
+    background-image: -moz-linear-gradient(top, #11cdd4, #119998);
+    background-image: -ms-linear-gradient(top, #11cdd4, #119998);
+    background-image: -o-linear-gradient(top, #11cdd4, #119998);
+    background-image: linear-gradient(to bottom, #11cdd4, #119998);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-family: 'Fira Code', monospace;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+/* font-family: 'Fira Code', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; */
